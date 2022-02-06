@@ -13,31 +13,31 @@ public class ExCoder {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Integer id;
+    private Integer id;
 	
 	@Column
-    public String exCoderReturn;
+	private String exCoderReturn;
 	
 	@Column
-    public String exCoderNotForMe;
+	private String exCoderNotForMe;
 	
 	@Column
-    public String exCoderBalance;
+	private String exCoderBalance;
 	
 	@Column
-    public String exCoder10Years;
+	private String exCoder10Years;
 	
 	@Column
-    public String exCoderBelonged;
+	private String exCoderBelonged;
 	
 	@Column
-    public String exCoderSkills;
+	private String exCoderSkills;
 	
 	@Column
-    public String exCoderWillNotCode;
+	private String exCoderWillNotCode;
 	
 	@Column
-    public String exCoderActive;
+	private String exCoderActive;
 
 	public int getId() {
 		return id;

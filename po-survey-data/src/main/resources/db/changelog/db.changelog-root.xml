@@ -154,19 +154,19 @@
             <column name="id" type="INT" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true" />
             </column>
-            <column name="equipment_satisfiedcpu" type="VARCHAR(255)">
+            <column name="equipment_satisfied_cpu" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
             <column name="equipment_satisfied_monitors" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
-            <column name="equipment_satisfiedram" type="VARCHAR(255)">
-                <constraints nullable="true" />
-            </column>
-            <column name="equipment_satisfiedrw" type="VARCHAR(255)">
+            <column name="equipment_satisfied_ram" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
             <column name="equipment_satisfied_storage" type="VARCHAR(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="equipment_satisfied_rw" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
         </createTable>
@@ -357,7 +357,7 @@
             <column name="id" type="INT" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true" />
             </column>
-            <column name="annoyingUI" type="VARCHAR(255)">
+            <column name="annoying_ui" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
             <column name="boring_details" type="VARCHAR(255)">
@@ -396,7 +396,7 @@
             <column name="problem_solving" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
-            <column name="pronounceGIF" type="VARCHAR(255)">
+            <column name="pronounce_gif" type="VARCHAR(255)">
                 <constraints nullable="true" />
             </column>
             <column name="right_wrong_way" type="VARCHAR(255)">

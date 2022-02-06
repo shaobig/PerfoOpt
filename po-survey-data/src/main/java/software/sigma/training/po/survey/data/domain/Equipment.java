@@ -19,23 +19,71 @@ public class Equipment {
     private String equipmentSatisfiedMonitors;
 	
 	@Column
-    private String equipmentSatisfiedCPU;
+    private String equipmentSatisfiedCpu;
 	
 	@Column
-    private String equipmentSatisfiedRAM;
+    private String equipmentSatisfiedRam;
 	
 	@Column
     private String equipmentSatisfiedStorage;
 	
 	@Column
-    private String equipmentSatisfiedRW;
+    private String equipmentSatisfiedRw;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getEquipmentSatisfiedMonitors() {
+        return equipmentSatisfiedMonitors;
+    }
+
+    public void setEquipmentSatisfiedMonitors(String equipmentSatisfiedMonitors) {
+        this.equipmentSatisfiedMonitors = equipmentSatisfiedMonitors;
+    }
+
+    public String getEquipmentSatisfiedCpu() {
+        return equipmentSatisfiedCpu;
+    }
+
+    public void setEquipmentSatisfiedCpu(String equipmentSatisfiedCpu) {
+        this.equipmentSatisfiedCpu = equipmentSatisfiedCpu;
+    }
+
+    public String getEquipmentSatisfiedRam() {
+        return equipmentSatisfiedRam;
+    }
+
+    public void setEquipmentSatisfiedRam(String equipmentSatisfiedRam) {
+        this.equipmentSatisfiedRam = equipmentSatisfiedRam;
+    }
+
+    public String getEquipmentSatisfiedStorage() {
+        return equipmentSatisfiedStorage;
+    }
+
+    public void setEquipmentSatisfiedStorage(String equipmentSatisfiedStorage) {
+        this.equipmentSatisfiedStorage = equipmentSatisfiedStorage;
+    }
+
+    public String getEquipmentSatisfiedRw() {
+        return equipmentSatisfiedRw;
+    }
+
+    public void setEquipmentSatisfiedRw(String equipmentSatisfiedRw) {
+        this.equipmentSatisfiedRw = equipmentSatisfiedRw;
+    }
 
     @Override
     public String toString() {
         return "Equipment [id=" + id + ", equipmentSatisfiedMonitors=" + equipmentSatisfiedMonitors
-                + ", equipmentSatisfiedCPU=" + equipmentSatisfiedCPU + ", equipmentSatisfiedRAM="
-                + equipmentSatisfiedRAM + ", equipmentSatisfiedStorage=" + equipmentSatisfiedStorage
-                + ", equipmentSatisfiedRW=" + equipmentSatisfiedRW + "]";
+                + ", equipmentSatisfiedCPU=" + equipmentSatisfiedCpu + ", equipmentSatisfiedRAM="
+                + equipmentSatisfiedRam + ", equipmentSatisfiedStorage=" + equipmentSatisfiedStorage
+                + ", equipmentSatisfiedRW=" + equipmentSatisfiedRw + "]";
     }
 
 }

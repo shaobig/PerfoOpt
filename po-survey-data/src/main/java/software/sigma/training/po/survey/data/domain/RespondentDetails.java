@@ -16,7 +16,7 @@ public class RespondentDetails {
     private Integer id;
 	
 	@Column
-    private String pronounceGIF;
+    private String pronounceGif;
 	
 	@Column
     private String problemSolving;
@@ -37,7 +37,7 @@ public class RespondentDetails {
     private String diversityImportant;
 	
 	@Column
-    private String annoyingUI;
+    private String annoyingUi;
 	
 	@Column
     private String friendsDevelopers;
@@ -77,12 +77,12 @@ public class RespondentDetails {
 		this.id = id;
 	}
 
-	public String getPronounceGIF() {
-		return pronounceGIF;
+	public String getPronounceGif() {
+		return pronounceGif;
 	}
 
-	public void setPronounceGIF(String pronounceGIF) {
-		this.pronounceGIF = pronounceGIF;
+	public void setPronounceGif(String pronounceGif) {
+		this.pronounceGif = pronounceGif;
 	}
 
 	public String getProblemSolving() {
@@ -133,12 +133,12 @@ public class RespondentDetails {
 		this.diversityImportant = diversityImportant;
 	}
 
-	public String getAnnoyingUI() {
-		return annoyingUI;
+	public String getAnnoyingUi() {
+		return annoyingUi;
 	}
 
-	public void setAnnoyingUI(String annoyingUI) {
-		this.annoyingUI = annoyingUI;
+	public void setAnnoyingUi(String annoyingUi) {
+		this.annoyingUi = annoyingUi;
 	}
 
 	public String getFriendsDevelopers() {

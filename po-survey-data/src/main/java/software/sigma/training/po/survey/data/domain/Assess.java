@@ -199,6 +199,4 @@ public class Assess {
                 + ", assessJobProduct=" + assessJobProduct + ", assessJobFinances=" + assessJobFinances + "]";
     }
 
-	
-	
 }
